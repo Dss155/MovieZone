@@ -1,0 +1,36 @@
+body.dark-theme {
+  background: #181a21;
+  color: #e0eafc;
+}
+body.dark-theme .custom-navbar {
+  background: linear-gradient(90deg, #232946 0%, #6C63FF 100%) !important;
+}
+body.dark-theme .section-header {
+  background: linear-gradient(90deg, #FF6B6B 0%, #4ECDC4 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body.dark-theme .movie-card {
+  background: linear-gradient(135deg, #232946 0%, #232946 100%);
+  color: #e0eafc;
+}
+body.dark-theme .card-title {
+  color: #fff;
+}
+body.dark-theme .btn-view {
+  background: linear-gradient(90deg, #FF6B6B 0%, #4ECDC4 100%);
+  color: #fff;
+}
+body.dark-theme footer {
+  background: linear-gradient(90deg, #181a21 0%, #232946 100%);
+  color: #e0eafc;
+}
+body.dark-theme .footer-link,
+body.dark-theme .social-link {
+  color: #e0eafc;
+}
+body.dark-theme .footer-link:hover,
+body.dark-theme .social-link:hover {
+  color: #4ECDC4;
+}
