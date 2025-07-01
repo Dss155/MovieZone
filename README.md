@@ -36,13 +36,13 @@
 
 ## 🛠️ Tech Stack
 
-| Layer        | Technology Used              |
-|--------------|-----------------------------|
-| **Frontend** | HTML5, CSS3, JavaScript     |
-| **Backend**  | PHP (Core PHP)              |
-| **Database** | MySQL                       |
-| **Hosting**  | InfinityFree (free)         |
-| **Admin**    | PHP-based dashboard         |
+| Layer        | Technology Used                       |
+|--------------|---------------------------------------|
+| **Frontend** | HTML5, CSS3, Bootsrap, JavaScript     |
+| **Backend**  | PHP (Core PHP)                        |
+| **Database** | MySQL                                 |
+| **Hosting**  | InfinityFree (free)                   |
+| **Admin**    | PHP-based dashboard                   |
 
 ---
 
