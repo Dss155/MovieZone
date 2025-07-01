@@ -19,90 +19,120 @@
 
 ## 🛠️ Tech Stack
 
-| Layer        | Technology Used         |
-|--------------|--------------------------|
-| Frontend     | HTML5, CSS3, JavaScript  |
-| Backend      | PHP (Core PHP)           |
-| Database     | MySQL                    |
-| Hosting      | InfinityFree (free)      |
-| Admin Access | Admin login via PHP dashboard |
+| Layer        | Technology Used              |
+|--------------|-----------------------------|
+| Frontend     | HTML5, CSS3, JavaScript     |
+| Backend      | PHP (Core PHP)              |
+| Database     | MySQL                       |
+| Hosting      | InfinityFree (free)         |
+| Admin Access | Admin login via PHP dashboard|
 
 ---
 
 ## 🧪 How to Set Up Locally
 
-> Requires: PHP 7+, MySQL, and Apache server (XAMPP/WAMP)
+> **Requires:** PHP 7+, MySQL, and Apache server (XAMPP/WAMP)
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/Dss155/MovieZone.git
 cd MovieZone
+```
 
-2. Import the Database
-Create a new MySQL database named moviezone
+### 2. Import the Database
 
-Import the SQL file (moviezone.sql) from the project root using phpMyAdmin or command line
+- Create a new MySQL database named `moviezone`.
+- Import the SQL file (`moviezone.sql`) from the project root using phpMyAdmin or command line.
 
-3. Update Database Credentials
-Open includes/db.php and update:
+### 3. Update Database Credentials
 
+Open `includes/db.php` and update:
+
+```php
 $host = 'localhost';
 $user = 'root';
 $password = '';
 $dbname = 'moviezone';
-4. Run Locally
-Start Apache & MySQL from XAMPP, then open:
+```
 
+### 4. Run Locally
+
+- Start Apache & MySQL from XAMPP/WAMP.
+- Open in your browser:
+
+```
 http://localhost/MovieZone/
-🔐 Admin Panel
-Admin URL: http://yourdomain/admin/
+```
 
-Login with default credentials (update later):
+---
 
-Username: admin
+## 🔐 Admin Panel
 
-Password: admin123
+- **Admin URL:** `http://yourdomain/admin/`
+- **Default Credentials:**  
+  - Username: `admin`  
+  - Password: `admin123`  
+  *(Update these after first login!)*
 
-Admin Dashboard Features:
+**Admin Dashboard Features:**
+- Upload new movies
+- Edit/delete existing movies
+- Manage download links and categories
 
-Upload new movies
+---
 
-Edit/delete existing movies
+## 🚧 Upcoming Enhancements
 
-Manage download links and categories
+- ✅ User login/signup system
+- ✅ Improved SEO and meta tags
+- ⏳ Genre-based filter enhancements
+- ⏳ Add trailer embed support
+- ⏳ Mirror links + download tracking
+- ⏳ Pagination for large movie lists
 
-🚧 Upcoming Enhancements
-✅ User login/signup system
+---
 
-✅ Improved SEO and meta tags
+## 📂 Folder Structure
 
-⏳ Genre-based filter enhancements
+```
+MovieZone/
+├── admin/
+├── assets/
+├── includes/
+├── uploads/
+├── index.php
+├── moviezone.sql
+└── README.md
+```
 
-⏳ Add trailer embed support
+---
 
-⏳ Mirror links + download tracking
+## 👨‍💻 Developer
 
-⏳ Pagination for large movie lists
+**Divyesh**  
+Full Stack Developer | PHP Enthusiast | MCA Student  
+📂 GitHub: [@Dss155](https://github.com/Dss155)  
+🌐 Live Site: [moviezone4you.free.nf](https://moviezone4you.free.nf)
 
-👨‍💻 Developer
-Divyesh
-Full Stack Developer | PHP Enthusiast | MCA Student
-📂 GitHub: @Dss155
-🌐 Live Site: moviezone4you.free.nf
+---
 
-🪪 License
+## 🪪 License
+
 This project is open-source and available under the MIT License.
 
-🙏 Acknowledgments
-Thanks to InfinityFree for free PHP hosting
+---
 
-Project built for educational & career portfolio purposes
+## 🙏 Acknowledgments
+
+- Thanks to InfinityFree for free PHP hosting.
+- Project built for educational & career portfolio purposes.
 
 ---
 
 ### ✅ You're ready!
 
-This `README.md` is 100% tailored to your **actual PHP + MySQL MovieZone project**, no mention of APIs, and it includes:
+This `README.md` is tailored to your **PHP + MySQL MovieZone project**—no mention of APIs, and it includes:
 
 - Full project intro
 - All tech used
@@ -113,4 +143,6 @@ This `README.md` is 100% tailored to your **actual PHP + MySQL MovieZone project
 - Future roadmap
 - Developer credits
 
-Let me know if you also want to design a modern **admin login UI** or need **GitHub badges/icons** at the top
+---
+
+*Let me know if you want a modern **admin login UI** or need **GitHub badges/icons** at the top!*
