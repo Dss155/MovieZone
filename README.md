@@ -123,8 +123,37 @@ MovieZone/
 
 ## 🤝 Contributing
 
-Contributions are welcome!  
-Feel free to fork the repo, open issues, or submit pull requests.
+Contributions are welcome and appreciated!  
+If you have ideas for new features, improvements, or bug fixes:
+
+1. **Fork** this repository.
+2. **Create a new branch** for your feature or fix.
+3. **Make your changes** (please describe what and where you changed).
+4. **Submit a Pull Request** with a clear description of your changes.
+5. You can also open an **Issue** if you want to discuss your idea first.
+
+*Your suggestions and code will help MovieZone grow!*
+
+---
+
+## 📬 Contact & Support
+
+For feedback, suggestions, or collaboration:  
+📧 [Contact via GitHub](https://github.com/Dss155)  
+Or simply open an [Issue](https://github.com/Dss155/MovieZone/issues) or [Pull Request](https://github.com/Dss155/MovieZone/pulls).
+
+---
+
+## 🪪 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙏 Acknowledgments
+
+- [InfinityFree](https://infinityfree.net/) for free PHP hosting  
+- Built for educational & portfolio purposes
 
 ---
 
